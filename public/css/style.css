@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+.topo {
+    width: auto;
+}
+
+.topo-img {
+    position: relative;
+    width: 100vw;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10vw;
+}
+
+.contagem {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contagem-titulo {
+    font-size: 4rem;
+    letter-spacing: 15px;
+    color: #6C63FF;
+}
+
+.contagem-relogio {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.contagem-relogio-var {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contagem-relogio-label {
+    color: #C8C8C8;
+}
+
+.contagem-relogio-numero {
+    font-size: 6rem;
+}
+
+.contagem-subtitulo {
+  color: #9C9AB6;
+  margin-top: 35px;
+  font-size: 1.5rem;
+}
+
+.contagem-botao {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+
+
+
+.lateral-img {
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.base {
+    width: auto;
+}
+
+.base-img {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
